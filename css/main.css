@@ -1,0 +1,56 @@
+body {
+    max-width: 900px;
+    padding-top: 10px;
+}
+
+header.masthead {
+    position: relative;
+    background: #eee;
+    border-radius: 10px;
+    min-height: 150px;
+    padding: 10px 20px;
+}
+
+header.masthead h1 {
+    display: inline-block;
+    font-size: 48px;
+    background: url(../images/validity.png) no-repeat 10px center;
+    background-size: contain;
+    padding-left: 94px;
+    min-height: 64px;
+}
+
+header.masthead .webstore {
+    position: absolute;
+    right: 150px;
+}
+
+ul.features li div {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    margin: 0 0 0 50%;
+}
+
+ul.features li:nth-child(even) div {
+    margin: 0 50% 0 0;
+}
+
+ul.features li.console {
+    background: url(../images/console.png) top left;
+    background-size: cover;
+}
+
+ul.features li.autovalidate {
+    background: url(../images/autovalidate.png) no-repeat right;
+    background-size: 50%;
+}
+
+ul.features li.ssl {
+    background: url(../images/ssl.png) no-repeat top left;
+    background-size: cover;
+}
+
+ul.features li.localvalidator {
+    background: url(../images/localvalidator.png) #000 no-repeat center right;
+    background-size: 50%;
+}
