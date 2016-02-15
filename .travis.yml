@@ -6,6 +6,7 @@ deploy:
   bucket: validity-website
   region: eu-central-1
   acl: public
+  skip_cleanup: true
   on:
     repo: renyard/validity-website
     branch: master
