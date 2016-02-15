@@ -5,7 +5,7 @@ deploy:
   secret_access_key: $AWS_SECRET_KEY
   bucket: validity-website
   region: eu-central-1
-  acl: public
+  acl: public_read
   skip_cleanup: true
   on:
     repo: renyard/validity-website
